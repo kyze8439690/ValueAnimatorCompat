@@ -24,7 +24,7 @@ public class ValueAnimatorCompat {
 
     public static ValueAnimatorCompat createAnimator() {
         return new ValueAnimatorCompat(Build.VERSION.SDK_INT >= 12
-                ? new ValueAnimatorCompatImplEclairMr1()
+                ? new ValueAnimatorCompatImplHoneycombMr1()
                 : new ValueAnimatorCompatImplEclairMr1());
     }
 

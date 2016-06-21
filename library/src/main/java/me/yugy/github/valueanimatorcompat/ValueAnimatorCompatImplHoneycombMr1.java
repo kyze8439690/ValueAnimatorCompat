@@ -7,7 +7,7 @@ import android.annotation.TargetApi;
 import android.os.Build;
 import android.view.animation.Interpolator;
 
-@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+@TargetApi(Build.VERSION_CODES.HONEYCOMB_MR1)
 class ValueAnimatorCompatImplHoneycombMr1 extends ValueAnimatorCompat.Impl {
 
     final ValueAnimator mValueAnimator;
